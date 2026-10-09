@@ -1,0 +1,2 @@
+const s=require('../../services/index'),ui=require('../../utils/ui');
+Page({data:{schools:ui.schoolOptions(),school:'全部学校',schoolIndex:0,merchants:[]},onShow(){this.refresh();},refresh(){const school=s.getSchool();this.setData({school,schoolIndex:ui.schoolOptions().indexOf(school),merchants:s.merchants.filter(item=>school==='全部学校'||item.school===school)});},changeSchool(e){ui.changeSchool(this,e);}});

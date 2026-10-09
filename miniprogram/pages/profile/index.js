@@ -1,0 +1,2 @@
+const s=require('../../services/index'),ui=require('../../utils/ui');
+Page({data:{user:s.user,products:[],needs:[]},onShow(){this.setData({products:s.list('products',{mine:true}),needs:s.list('needs',{mine:true})});},openProduct:ui.openProduct,openNeed:ui.openNeed,publishProduct(){wx.navigateTo({url:'/pages/publish-product/index'});},publishNeed(){wx.navigateTo({url:'/pages/publish-need/index'});}});

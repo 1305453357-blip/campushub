@@ -1,0 +1,58 @@
+{
+  "pages": [
+    "pages/home/index",
+    "pages/market/index",
+    "pages/needs/index",
+    "pages/nearby/index",
+    "pages/profile/index",
+    "pages/product-detail/index",
+    "pages/publish-product/index",
+    "pages/need-detail/index",
+    "pages/publish-need/index"
+  ],
+  "window": {
+    "navigationBarTitleText": "校园圈 CampusHub",
+    "navigationBarBackgroundColor": "#f4faf9",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#f4faf9"
+  },
+  "tabBar": {
+    "color": "#758783",
+    "selectedColor": "#079b91",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/home/index",
+        "text": "首页",
+        "iconPath": "assets/home.png",
+        "selectedIconPath": "assets/home-active.png"
+      },
+      {
+        "pagePath": "pages/market/index",
+        "text": "二手市场",
+        "iconPath": "assets/market.png",
+        "selectedIconPath": "assets/market-active.png"
+      },
+      {
+        "pagePath": "pages/needs/index",
+        "text": "需求广场",
+        "iconPath": "assets/needs.png",
+        "selectedIconPath": "assets/needs-active.png"
+      },
+      {
+        "pagePath": "pages/nearby/index",
+        "text": "校园周边",
+        "iconPath": "assets/nearby.png",
+        "selectedIconPath": "assets/nearby-active.png"
+      },
+      {
+        "pagePath": "pages/profile/index",
+        "text": "我的",
+        "iconPath": "assets/profile.png",
+        "selectedIconPath": "assets/profile-active.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
